@@ -6,8 +6,8 @@ require 'google_syncinator_api_client/version'
 spec = Gem::Specification.new do |s|
   s.name = 'google_syncinator_api_client'
   s.version = GoogleSyncinatorAPIClient::VERSION
-  s.summary = 'Client for the GoogleSyncinator directory API'
-  s.description = 'API consuming models for the GoogleSyncinator directory project'
+  s.summary = 'Client for the GoogleSyncinator API'
+  s.description = 'API consuming models for the GoogleSyncinator project'
   s.files = Dir['README.*', 'MIT-LICENSE', 'lib/**/*.rb']
   s.require_path = 'lib'
   s.author = 'Michael Stephens'
@@ -20,7 +20,7 @@ spec = Gem::Specification.new do |s|
   s.add_development_dependency 'webmock', '~> 1.17'
   s.add_development_dependency 'factory_girl', '~> 4.4'
   s.add_development_dependency 'faker', '~> 1.3'
-  s.add_development_dependency 'google_syncinator_api'
+  # s.add_development_dependency 'google_syncinator'
   s.add_development_dependency 'pry', '~> 0.9'
   s.add_development_dependency 'pry-stack_explorer', '~> 0.4'
 end
