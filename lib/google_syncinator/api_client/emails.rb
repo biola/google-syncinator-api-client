@@ -9,7 +9,7 @@ module GoogleSyncinator
 
       get :show, '/emails/{id}'
 
-      put :create, '/emails' do |resource|
+      post :create, '/emails' do |resource|
         resource.required :uuid, :address
         resource.optional :primary
       end
