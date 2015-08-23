@@ -16,6 +16,7 @@ module GoogleSyncinator
   module APIClient
     autoload :Settings, 'google_syncinator/api_client/settings'
     autoload :Emails, 'google_syncinator/api_client/emails'
+    autoload :Exclusions, 'google_syncinator/api_client/exclusions'
   end
 end
 
