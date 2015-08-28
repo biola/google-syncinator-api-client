@@ -15,6 +15,7 @@ end
 module GoogleSyncinator
   module APIClient
     autoload :Settings, 'google_syncinator/api_client/settings'
+    autoload :DeprovisionSchedules, 'google_syncinator/api_client/deprovision_schedules'
     autoload :Emails, 'google_syncinator/api_client/emails'
     autoload :Exclusions, 'google_syncinator/api_client/exclusions'
   end
