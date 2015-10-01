@@ -8,15 +8,6 @@ module GoogleSyncinator
       end
 
       get :show, '/emails/{id}'
-
-      post :create, '/emails' do |resource|
-        resource.required :uuid, :address
-        resource.optional :primary
-      end
-
-      put :update, '/emails/{id}' do |resource|
-        resource.required :primary
-      end
     end
   end
 end
