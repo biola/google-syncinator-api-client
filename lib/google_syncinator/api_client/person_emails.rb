@@ -7,7 +7,6 @@ module GoogleSyncinator
 
       post :create, '/person_emails' do |resource|
         resource.required :uuid, :address
-        resource.optional :primary
       end
     end
   end
