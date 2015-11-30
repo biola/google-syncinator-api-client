@@ -19,6 +19,7 @@ module GoogleSyncinator
     autoload :AliasEmails, 'google_syncinator/api_client/alias_emails'
     autoload :Emails, 'google_syncinator/api_client/emails'
     autoload :PersonEmails, 'google_syncinator/api_client/person_emails'
+    autoload :DepartmentEmails, 'google_syncinator/api_client/department_emails'
     autoload :Exclusions, 'google_syncinator/api_client/exclusions'
   end
 end
