@@ -15,14 +15,13 @@ end
 module GoogleSyncinator
   module APIClient
     autoload :Settings, 'google_syncinator/api_client/settings'
-    autoload :People, 'google_syncinator/api_client/people'
-    autoload :IDs, 'google_syncinator/api_client/ids'
+    autoload :DeprovisionSchedules, 'google_syncinator/api_client/deprovision_schedules'
+    autoload :AccountEmails, 'google_syncinator/api_client/account_emails'
+    autoload :AliasEmails, 'google_syncinator/api_client/alias_emails'
     autoload :Emails, 'google_syncinator/api_client/emails'
-    autoload :Phones, 'google_syncinator/api_client/phones'
-    autoload :Photos, 'google_syncinator/api_client/photos'
-    autoload :Addresses, 'google_syncinator/api_client/addresses'
-    autoload :ChangeSyncs, 'google_syncinator/api_client/change_syncs'
-    autoload :Groups, 'google_syncinator/api_client/groups'
+    autoload :PersonEmails, 'google_syncinator/api_client/person_emails'
+    autoload :DepartmentEmails, 'google_syncinator/api_client/department_emails'
+    autoload :Exclusions, 'google_syncinator/api_client/exclusions'
   end
 end
 

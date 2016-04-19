@@ -3,9 +3,11 @@ module GoogleSyncinator
     class Emails < Weary::Client
       include Settings
 
-      put :update, '/people/{uuid}/emails/{email_id}' do |resource|
-        resource.required :old_address, :new_address
+      get :index, '/emails' do |resource|
+        resource.optional :q, :state, :pending, :page, :per_page, :offset
       end
+
+      get :show, '/emails/{id}'
     end
   end
 end
