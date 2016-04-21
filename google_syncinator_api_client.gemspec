@@ -10,8 +10,8 @@ spec = Gem::Specification.new do |s|
   s.description = 'API consuming models for the GoogleSyncinator project'
   s.files = Dir['README.*', 'MIT-LICENSE', 'lib/**/*.rb']
   s.require_path = 'lib'
-  s.author = 'Michael Stephens'
-  s.email = 'michael.stephens@biola.edu'
+  s.author = 'Biola University'
+  s.email = 'appsupport@biola.edu'
   s.homepage = 'https://github.com/biola/google-syncinator-api-client'
   s.license = 'MIT'
   s.add_dependency 'api-auth', '~> 1.0'
