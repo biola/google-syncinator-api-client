@@ -4,7 +4,7 @@ module GoogleSyncinator
       include Settings
 
       get :index, '/emails' do |resource|
-        resource.optional :q, :state, :pending, :page, :per_page, :offset
+        resource.optional :q, :state, :pending, :_type, :page, :per_page, :offset
       end
 
       get :show, '/emails/{id}'
