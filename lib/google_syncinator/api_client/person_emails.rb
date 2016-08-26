@@ -10,7 +10,7 @@ module GoogleSyncinator
       end
 
       put :update, '/person_emails/{id}' do |resource|
-        resource.optional :address, :first_name, :vfe, :password, :uuid
+        resource.optional :address, :uuid, :first_name, :last_name, :vfe, :password, :privacy
       end
     end
   end
